@@ -53,6 +53,16 @@ Response
   "notifiedDrivers": 2
 }
 
+🔄 API Flow
+Order Pincode
+   ↓
+Find Nearby Pincodes (Mocked)
+   ↓
+MongoDB Query using $in operator
+   ↓
+Matched Drivers
+   ↓
+Send SMS Notifications (Mocked)
 
 
 
