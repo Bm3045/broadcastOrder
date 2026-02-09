@@ -35,4 +35,6 @@ Each driver has the following schema:
   zipCodes: [Number]
 }
 
+A driver can work in multiple pincodes.
+
 
