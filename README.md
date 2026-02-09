@@ -64,14 +64,10 @@ Matched Drivers
    ↓
 Send SMS Notifications (Mocked)
 
+🧠 Logic Highlights
 
+Nearby pincodes are generated using a dummy function.
 
+MongoDB $in operator is used to match drivers whose zipCodes intersect with nearby pincodes.
 
-
-
-
-
-
-
-
-
+SMS notifications are sent via a mock SMS service.
