@@ -17,7 +17,22 @@ When an order is placed with a specific pincode:
 
 - **Backend:** Node.js, Express.js  
 - **Database:** MongoDB, Mongoose  
-- **HTTP Client:** Axios (mocked SMS API)  
+- **HTTP Client:** Axios (mocked SMS API)
+
+
+---
+
+## 📄 Driver Model
+
+Each driver has the following schema:
+
+```js
+{
+  name: String,
+  phoneNumber: String,
+  zipCodes: [Number]
+}
+
 
 ---
 
@@ -27,10 +42,9 @@ POST /api/broadcastOrder
 
 **Request Body**
 
-'''
  {
   "orderPincode": 560068
-}
+ }
 
 
 
