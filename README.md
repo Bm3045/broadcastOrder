@@ -21,23 +21,26 @@ When an order is placed with a specific pincode:
 
 ---
 
+## 🚀 API Endpoint
+-**Broadcast Order**
+POST /api/broadcastOrder
 
----
+**Request Body**
 
-## 📄 Driver Model
-
-Each driver has the following schema:
-
-```js
-{
-  name: String,
-  phoneNumber: String,
-  zipCodes: [Number]
+'''
+ {
+  "orderPincode": 560068
 }
 
-A driver can work in multiple pincodes.
 
 
----
+
+
+
+
+
+
+
+
 
 
