@@ -47,6 +47,13 @@ POST /api/broadcastOrder
  }
 
 
+Response
+{
+  "success": true,
+  "notifiedDrivers": 2
+}
+
+
 
 
 
